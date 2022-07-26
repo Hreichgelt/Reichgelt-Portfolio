@@ -44,8 +44,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 
-
-
 ## VISUALS
 
 ![Portfolio](/src/components/assets/portfolio.png)
@@ -61,9 +59,3 @@ Instructional Staff for coding bootcamp
 1. [LIVE SITE](https://lit-dawn-53951.herokuapp.com/)
 
 2. [REPOSITORY](https://github.com/Hreichgelt/Reichgelt-Portfolio)
-
-
-
-
-
-
