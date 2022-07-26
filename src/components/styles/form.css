@@ -1,0 +1,13 @@
+.form {
+    margin: 40px;
+    ;
+}
+
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+    background-color: rgb(245, 19, 19);
+    border-color: aliceblue;
+}
