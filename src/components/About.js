@@ -22,6 +22,7 @@ const styles = {
 
 function About() {
   return (
+    
     <main>
       <img className="profile" src={me} alt="Hans"></img>
       <div style={styles.card}>
