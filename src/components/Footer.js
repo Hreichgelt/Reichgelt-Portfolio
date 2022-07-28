@@ -16,7 +16,7 @@ function Footer() {
         justifyContent: "center",
         borderBottom: "none",
         backgroundColor: 'cadetblue',
-
+        justifySelf: "flex-end"
 
       }}
     >

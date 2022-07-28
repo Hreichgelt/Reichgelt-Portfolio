@@ -49,10 +49,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![Portfolio](/src/components/assets/portfolio.png)
 ![Projects](/src/components/assets/portfolio2.png)
 
-## AUTHORS AND ACKNOWLEDGMENTS
-
-Hans Reichgelt
-Instructional Staff for coding bootcamp
 
 ## RESOURCES
 
