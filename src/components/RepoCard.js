@@ -44,6 +44,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "16px",
   },
   avatar: {
+    
     color: theme.palette.getContrastText(green[500]),
     backgroundColor: green[500],
   },

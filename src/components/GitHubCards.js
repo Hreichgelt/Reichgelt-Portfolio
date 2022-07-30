@@ -16,6 +16,7 @@ class GitHubCards extends Component {
 
     let repo = [
       'Progressive-Web-App-Text-Editor',
+      'trailblazers',
       'The-Var-TechBlog',
       'Scheduling-Assistant',
       'Team-Profile-Generator',

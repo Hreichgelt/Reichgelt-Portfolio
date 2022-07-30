@@ -4,6 +4,8 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import GithubCards from "./components/GitHubCards";
 
 import Resume from './components/Resume';

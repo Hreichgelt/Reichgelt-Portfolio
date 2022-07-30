@@ -1,13 +1,42 @@
 .form {
     margin: 40px;
-    ;
 }
 
 .form input {
-    display: block;
+    display: flex;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 60%;
-    background-color: rgb(245, 19, 19);
+    background-color: rgb(207, 204, 204);
     border-color: aliceblue;
+}
+
+.input {
+    margin: 40px;
+}
+
+.input input {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+    background-color: rgb(207, 204, 204);
+    border-color: black;
+
+}
+
+.boot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    /* width: 60%; */
+    background-color: rgb(207, 204, 204);
+    border-color: black;
 }
