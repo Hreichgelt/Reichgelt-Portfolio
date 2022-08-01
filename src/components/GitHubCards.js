@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Axios from "axios";
 import RepoCard from "./RepoCard";
-import { Grid } from "@material-ui/core";
+import Grid from '@mui/material/Grid';
 
 class GitHubCards extends Component {
   Title = [];

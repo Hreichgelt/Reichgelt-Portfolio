@@ -1,7 +1,6 @@
 // from bootcamp.ux design.cc
 import React from "react";
 import {
-  makeStyles,
   Card,
   CardHeader,
   CardContent,
@@ -9,61 +8,60 @@ import {
   Avatar,
   Typography,
   Grid,
-} from "@material-ui/core";
-import { green } from "@material-ui/core/colors";
+} from "@mui/material";
+import { css} from '@emotion/react';
+import { green } from "@mui/material/colors";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    minWidth: 0,
-    marginTop: "10px",
-    marginBottom: "10px",
-    display: "flex",
-  },
-  card: {
-    width: "100%",
-    marginLeft: "15px",
-    marginRight: "15px",
-    margin: "auto",
-    transition: "0.3s",
-    minHeight: "270px",
-    borderRadius: ".625rem!important",
-    boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
-    "&:hover": {
-      boxShadow: "0 16px 70px -12.125px rgba(0,0,0,0.3)",
-    },
-  },
-  tittle: {
-    "&:active": {
-      color: "#00008E",
-    },
-  },
-  cardContent: {
-    minHeight: "120px",
-  },
-  cardActions: {
-    padding: "16px",
-  },
-  avatar: {
-    
-    color: theme.palette.getContrastText(green[500]),
-    backgroundColor: green[500],
-  },
-  dot: {
-    height: "12px",
-    width: "12px",
-    borderRadius: "50%",
-    display: "inline-block",
-  },
-}));
+const styles = {
+    root: css`
+        minWidth: 0;
+        marginTop: 10px;
+        marginBottom: 10px;
+        display: flex;
+    `,
+    card: css`
+        width: 100%;
+        marginLeft: 15px;
+        marginRight: 15px;
+        margin: auto;
+        transition: 0.3s;
+        minHeight: 270px;
+        borderRadius: .625rem !important;
+        boxShadow: 0 8px 40px -12px rgba(0, 0, 0, 0.3);
+        &:hover {
+            boxShadow: 0 16px 70px -12.125px rgba(0, 0, 0, 0.3);
+        };
+    `,
+    title: css`
+        &:active {
+            color: #00008E;
+        },
+    `,
+    cardContent: css`
+        minHeight: 120px;
+    `,
+    cardActions: css`
+        padding: 16px;
+    `,
+    avatar: css`
+        color: ${green[500]};
+        backgroundColor: ${green[500]};
+    `,
+    dot: css`
+        height: 12px;
+        width: 12px;
+        borderRadius: 50%;
+        display: inline-block;
+    `
+};
 
 const RepoCard = ({ repo, language }) => {
-  const classes = useStyles();
   return (
-    <Grid xs={12} sm={6} lg={3} className={classes.root}>
-      <Card className={classes.card}>
+    <Grid xs={12} sm={6} lg={3} css={styles.root}>
+      <Card css={styles.card}>
         <CardHeader
           avatar={
-            <Avatar aria-label="recipe" className={classes.avatar}>
+            <Avatar aria-label="recipe" css={styles.avatar}>
               <span
                 className="octicon octicon-repo"
                 style={{ fontSize: "20px" }}
@@ -76,7 +74,7 @@ const RepoCard = ({ repo, language }) => {
                 href={repo.html_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={classes.tittle}
+                css={styles.title}
                 style={{ textDecoration: "none", color: "#551A8B" }}
               >
                 {repo.name}
@@ -87,7 +85,7 @@ const RepoCard = ({ repo, language }) => {
                 href={`https://${repo.owner.login}.github.io/${repo.name}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={classes.tittle}
+                css={styles.title}
                 style={{ textDecoration: "none", color: "#551A8B" }}
               >
                 {repo.name}--Live
@@ -97,14 +95,14 @@ const RepoCard = ({ repo, language }) => {
           }
         />
 
-        <CardContent className={classes.cardContent}>
+        <CardContent css={styles.cardContent}>
           <Typography variant="body1">{repo.description}</Typography>
         </CardContent>
-        <CardActions className={classes.cardActions}>
+        <CardActions css={styles.cardActions}>
           {repo.language ? (
             <React.Fragment>
               <span
-                className={classes.dot}
+                css={styles.dot}
                 // style={{ backgroundColor: language[repo.language]["color"] }}
               ></span>
               <Typography style={{ marginRight: "10px" }}>

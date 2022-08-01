@@ -1,28 +1,29 @@
 import React, { useState } from "react";
+import ContactForm from "./ContactForm";
 import "./styles/form.css";
 
 function Contact() {
-  const [email, setEmail] = useState("");
-  const [textArea, setTextArea] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [textArea, setTextArea] = useState("");
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    return name === "email" ? setEmail(value) : setTextArea(value);
-  };
+  // const handleInputChange = (e) => {
+  //   const { name, value } = e.target;
+  //   return name === "email" ? setEmail(value) : setTextArea(value);
+  // };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    alert(
-      `Thank you ${email}, Unfortunately this form is disabled, check back later for functionality.`
-    );
-    setEmail("");
-    setTextArea("");
-  };
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
+  //   alert(
+  //     `Thank you ${email}, Unfortunately this form is disabled, check back later for functionality.`
+  //   );
+  //   setEmail("");
+  //   setTextArea("");
+  // };
 
   return (
     <main>
       <h2>Contact Me</h2>
-      <div class="form mb-3">
+      {/* <div class="form mb-3">
         <label for={email} onChange={handleInputChange} class="form-label">
           Email
         </label>
@@ -48,7 +49,10 @@ function Contact() {
       <button class="btn btn-primary mb-3" type="submit" onClick={handleFormSubmit}>
         Submit
       </button>
-      </div>
+      </div> */}
+
+<ContactForm />
+
     </main>
   );
 }

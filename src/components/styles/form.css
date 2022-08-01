@@ -1,42 +1,44 @@
-.form {
+form {
     margin: 40px;
+    padding: 40px;
 }
 
-.form input {
+input {
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 60%;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    width: 25%;
     background-color: rgb(207, 204, 204);
     border-color: aliceblue;
 }
 
-.input {
-    margin: 40px;
-}
+/* .formControll {
+    padding: 5%
+} */
 
-.input input {
-    display: flex;
+/* textarea {
+    margin: 40px;
+} */
+
+textarea {
+    /* display: flex; */
     margin-top: 5px;
     margin-bottom: 5px;
     width: 60%;
     background-color: rgb(207, 204, 204);
     border-color: black;
-
 }
 
-.boot {
+#boot {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 button {
-
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 50px;
-    /* width: 60%; */
     background-color: rgb(207, 204, 204);
     border-color: black;
 }
