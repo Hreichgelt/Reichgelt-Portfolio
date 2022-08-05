@@ -41,7 +41,6 @@ function App() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange}  />
       <SelectedPage currentPage={currentPage} handlePageChange={handlePageChange} />
       <Footer />
-      
     </div>
   )
 }

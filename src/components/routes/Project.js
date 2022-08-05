@@ -1,15 +1,12 @@
 import React from 'react';
-// import Projects from '../components/Projects';
 
 
-import GitHubCards from "../components/GitHubCards";
 
 
 function Portfolio() {
   return (
     <>
-  <GitHubCards />
-  {/* <Projects /> */}
+
   </ >
   )
 
