@@ -1,12 +1,21 @@
 import React from 'react';
-import Nav from './Nav';
+import longs from './assets/longs.png'
+import { Link } from 'react-router-dom'
 
-function Header({ currentPage, handlePageChange }) {
+const Header = () => {
     return (
-        <header className='hero' style={{ backgroundColor: 'cadetblue' }}>
-            <h1 className='title' style={{ fontFamily: 'cursive' }} >Hans Reichgelt</h1>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        </header>
+    <div className='header'>
+        <div className='herocover'>
+            <img className='header-img' src={longs} alt='Longs Peak'></img>
+        </div>
+        <div className='content'>
+            <p>Welcome!</p>
+            <div>
+                <Link to='/project' className='btn'>Projects</Link>
+                <Link to='/About' className='btn'>About</Link>
+            </div>
+        </div>
+    </div>
     )
 }
 

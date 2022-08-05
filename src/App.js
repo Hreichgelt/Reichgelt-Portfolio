@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Header from './components/Header';
-import About from './components/About';
+import About from './components/routes/About';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/routes/Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import GithubCards from "./components/GitHubCards";
