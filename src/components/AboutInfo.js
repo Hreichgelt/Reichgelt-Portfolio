@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutInfo.css";
+// import "./AboutInfo.css";
 import { Link } from "react-router-dom";
 import ranier from "./assets/ranier.png";
 import fishBall from "./assets/fishBall.png";

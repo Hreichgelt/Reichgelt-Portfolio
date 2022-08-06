@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap'
-import Footer from '../Footer'
-import WorkIe from '../WorkIe'
+import Footer from '../components/Footer'
+import WorkIe from '../components/WorkIe'
 
 
 
@@ -10,7 +10,7 @@ const Project = () => {
   return (
     <div>
     <Nav />
-    // hero image
+    {/* hero image */}
     <WorkIe />
     <Footer />
     </div>

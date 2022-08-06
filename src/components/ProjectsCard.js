@@ -1,8 +1,8 @@
 import React from "react";
-import './ProjectStyle.css'
+// import './ProjectStyle.css'
 
 
-function ProjectsCard() {
+const ProjectsCard = (props) => {
     return (
         <div className="experience-container">
             <div className="project-container">

@@ -1,48 +1,56 @@
-import React, {useState} from 'react';
-import Header from './components/Header';
-import About from './components/routes/About';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
-import Portfolio from './components/routes/Project';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import Project from "./routes/Project";
+import { Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-// import GithubCards from "./components/GitHubCards";
-
-import Resume from './components/Resume';
-// import Nav from './components/Nav';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('about');
-
-  let SelectedPage = About;
-
-  switch (currentPage) {
-    case 'about': 
-    SelectedPage = About;
-      break;
-    case 'contact':
-    SelectedPage = Contact;
-    break;
-    case 'portfolio':
-    SelectedPage = Portfolio;
-    break;
-    case 'resume':
-    SelectedPage = Resume;
-    break;
-    
-    default:
-      break;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page)
-
   return (
     <div>
-      <Header currentPage={currentPage} handlePageChange={handlePageChange}  />
-      <SelectedPage currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Project" element={<Project />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
 export default App;
+
+// const [currentPage, setCurrentPage] = useState('about');
+
+//   let SelectedPage = About;
+
+//   switch (currentPage) {
+//     case 'about':
+//     SelectedPage = About;
+//       break;
+//     case 'contact':
+//     SelectedPage = Contact;
+//     break;
+//     case 'portfolio':
+//     SelectedPage = Portfolio;
+//     break;
+//     case 'resume':
+//     SelectedPage = Resume;
+//     break;
+
+//     default:
+//       break;
+//   };
+
+//   const handlePageChange = (page) => setCurrentPage(page)
+
+//   return (
+//     <div>
+//       <Header currentPage={currentPage} handlePageChange={handlePageChange}  />
+//       <SelectedPage currentPage={currentPage} handlePageChange={handlePageChange} />
+//       <Footer />
+//     </div>
+//   )
+// }
