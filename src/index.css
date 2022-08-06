@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(9, 1, 1)
+}
+
+h1, h2, h3, p, a {
+    color: wheat;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    padding: 10px 24px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    background: #335af9;
+    color: white;
+    border: 1px solid gray;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #74c0fc;
+    color: whte;
+    transition: 0.5s;
+}
+
+
