@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { TiTimesOutline } from "react-icons/ti";
 import { RiMenu5Fill } from "react-icons/ri";
+import './styles/nav.css'
 
 const Nav = () => {
   const [click, setClick] = useState(false);
