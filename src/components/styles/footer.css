@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    /* width: 100%; */
+    padding: 1.5rem;
+    background-color: rgb(52, 48, 48);
+    justify-content: center;
+}
+
+.footer-contain {
+    margin: auto;
+    grid-gap: 40px;
+}
+
+.center {
+    display: flex;
+    padding: 1rem;
+    margin-top: 1.4rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+}
+
+
+

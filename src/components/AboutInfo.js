@@ -3,11 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ranier from "./assets/ranier.png";
 import fishBall from "./assets/fishBall.png";
+import './styles/about.css'
 
 const AboutInfo = () => {
   return (
     <div className="about-info">
-      <div className="left">
+      <div className="right">
         <h1>Brand</h1>
         <p>
           Fullstack Engineer leveraging recreation and land-management
@@ -37,7 +38,7 @@ const AboutInfo = () => {
         </Link>
       </div>
 
-      <div className="right">
+      <div className="left">
         <div className="image-container">
           <div className="image-up">
             <img src={ranier} className="img" alt="Ranier"></img>

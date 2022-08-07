@@ -1,5 +1,5 @@
 .header {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   overflow-y: hidden;
   display: block;
@@ -7,7 +7,7 @@
 
   .headercover {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
   }
   

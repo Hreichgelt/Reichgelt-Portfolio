@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/headerImg.css'
 
 const HeaderImg = (props) => {
     return (
