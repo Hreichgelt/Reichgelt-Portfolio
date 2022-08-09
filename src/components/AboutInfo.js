@@ -1,5 +1,4 @@
 import React from "react";
-// import "./AboutInfo.css";
 import { Link } from "react-router-dom";
 import ranier from "./assets/ranier.png";
 import fishBall from "./assets/fishBall.png";
@@ -27,8 +26,7 @@ const AboutInfo = () => {
         </p>
         <h2>About Me</h2>
         <p>
-          Small town midwesterner breaking out of his shell and trying to see as
-          many places, meet as many people, try as many foods and learn as much
+          Small town midwesterner trying to see as many places, meet as many people, try as many foods and learn as much
           as he possibly can. Spent the last decade in Colorado but have started
           moving around a bit more. Love all things adventure and nature. Always
           up for learning something new.
@@ -41,10 +39,10 @@ const AboutInfo = () => {
       <div className="left">
         <div className="image-container">
           <div className="image-up">
-            <img src={ranier} className="img" alt="Ranier"></img>
+            <img src={ranier} className="imgRain" alt="Ranier"></img>
           </div>
           <div className="image-down">
-            <img src={fishBall} className="img" alt="Fish and Diver"></img>
+            <img src={fishBall} className="imgFish" alt="Fish and Diver"></img>
           </div>
         </div>
       </div>

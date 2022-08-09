@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div>
       <Nav />
-      <HeaderImg heading='About Me' />
+      <HeaderImg />
       <AboutInfo />
       <Footer />
     </div>
@@ -19,5 +19,3 @@ const About = () => {
 }
 
 export default About;
-
-

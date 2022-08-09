@@ -3,6 +3,7 @@
     filter: brightness(70%), blur(5%);
     position: relative;
     height: auto;
+    /* padding-bottom: 15rem; */
 }
 
 .header-img::before{
