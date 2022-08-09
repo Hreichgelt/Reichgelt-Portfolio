@@ -3,7 +3,7 @@
 
 
 .project-container {
-    max-width: 90%;
+    max-width: 50%;
     margin: auto;
     display: flex;
     grid-template-columns: (3,1fr);

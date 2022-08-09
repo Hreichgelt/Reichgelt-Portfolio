@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ranier from "./assets/ranier.png";
-import fishBall from "./assets/fishBall.png";
+import ranier from "./assets/ranier.jpg";
 import './styles/about.css'
 
 const AboutInfo = () => {
@@ -38,11 +37,8 @@ const AboutInfo = () => {
 
       <div className="left">
         <div className="image-container">
-          <div className="image-up">
-            <img src={ranier} className="imgRain" alt="Ranier"></img>
-          </div>
-          <div className="image-down">
-            <img src={fishBall} className="imgFish" alt="Fish and Diver"></img>
+          <div className="ranier">
+            <img src={ranier} className="imgFish" alt="Fish and Diver"></img>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Project = () => {
   return (
     <div>
     <Nav />
-    <Header />
+    {/* <Header /> */}
     <WorkIe />
     <Footer />
     </div>
