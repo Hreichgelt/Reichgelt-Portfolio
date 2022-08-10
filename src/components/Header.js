@@ -1,12 +1,13 @@
 import React from 'react';
-import longs from './assets/longs.JPG'
+import forest from './assets/forest.jpg'
+import './styles/header.css'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
     <div className='header'>
         <div className='headercover'>
-            <img className='header-img' src={ longs } alt='Longs Peak'></img>
+            <img className='header-img' src={ forest } alt='forest'></img>
         </div>
         <div className='content'>
             <p>Welcome!</p>

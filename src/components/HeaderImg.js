@@ -9,6 +9,7 @@ const HeaderImg = (props) => {
                 <p>{props.text}</p>
             </div>
         </div>
+
     )
 }
 
