@@ -1,44 +1,72 @@
 form {
-    margin: 40px;
-    padding: 40px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+/* .header-image {
+    z-index: 0;
+    padding: 0;
+} */
+
+.contact {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+
+}
+
+.email {
+    padding-right: 40%;
+    margin-bottom: 1.5%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+
+}
+
+.message {
+    /* padding-left: 10%; */
+    margin-bottom: 1.5%;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 input {
-    display: flex;
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
-    width: 25%;
+    border-color: black;
+    /* border-radius: 20%; */
     background-color: rgb(207, 204, 204);
-    border-color: aliceblue;
+    z-index: 99999;
+
 }
-
-/* .formControll {
-    padding: 5%
-} */
-
-/* textarea {
-    margin: 40px;
-} */
 
 textarea {
-    /* display: flex; */
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 60%;
     background-color: rgb(207, 204, 204);
     border-color: black;
-}
-
-#boot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 button {
+    /* justify-self: center; */
+    max-width: min-content;
     margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 50px;
     background-color: rgb(207, 204, 204);
     border-color: black;
 }

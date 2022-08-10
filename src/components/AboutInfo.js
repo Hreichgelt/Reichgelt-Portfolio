@@ -25,10 +25,8 @@ const AboutInfo = () => {
         </p>
         <h2>About Me</h2>
         <p>
-          Small town midwesterner trying to see as many places, meet as many people, try as many foods and learn as much
-          as he possibly can. Spent the last decade in Colorado but have started
-          moving around a bit more. Love all things adventure and nature. Always
-          up for learning something new.
+        Hello, my name is Hans Reichgelt. Recently graduated from UNC Charlotte's 
+        full-stack web development bootcamp(MERN stack). Before that, I spent the last 15+ years working in outdoor education, recreation, and land management. That is what my undergraduate education is in as well. Live for learning through experiences, especially travel and adventure tourism. I am dedicated to seeing as many places, meeting as many people, trying as many foods, and learning as much as I possibly can. 
         </p>
         <Link to="/contact">
           <button className="btn">Contact Me</button>
@@ -38,7 +36,7 @@ const AboutInfo = () => {
       <div className="left">
         <div className="image-container">
           <div className="ranier">
-            <img src={ranier} className="imgFish" alt="Fish and Diver"></img>
+            <img src={ranier} className="imgFish" alt="Mount Ranier"></img>
           </div>
         </div>
       </div>

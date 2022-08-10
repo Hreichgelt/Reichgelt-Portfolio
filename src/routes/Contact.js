@@ -2,13 +2,13 @@ import React  from "react";
 import Nav from '../components/Nav'
 import ContactForm from "../components/ContactForm";
 import Footer from '../components/Footer'
-// import "./styles/form.css";
+import HeaderImg from "../components/HeaderImg";
 
 function Contact() {
   return (
     <div>
       <Nav />
-      {/* <hero image heading='Contact Me' /> */}
+      <HeaderImg />
       <ContactForm />
       <Footer />
     </div>

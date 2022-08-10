@@ -11,6 +11,7 @@ const Header = () => {
             <img className='header-img' src={ forest } alt='forest'></img>
         </div>
         <div className='content'>
+            <p>Hans's Portfolio</p>
             <p>Welcome!</p>
             <div>
                 <Link to='/project' className='btn'>Projects</Link>

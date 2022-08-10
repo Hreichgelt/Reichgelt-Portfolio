@@ -1,44 +1,43 @@
-
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+// import forest from "./assets/forest.jpg";
 import "./styles/form.css";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mbjbroaz");
   if (state.succeeded) {
-      return <p>Thanks for reaching out!</p>;
+    return <p>Thanks for reaching out!</p>;
   }
   return (
-      <form class="mb-3" onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email Address
-      </label>
-      <input
-        id="email"
-        type="email" 
-        name="email"
-        className="formControll"
-        placeholder="name@example.com"
-      />
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-
-      
-      <textarea
-        className="input"
-        id="message"
-        name="message"
-        rows={7}
-      />
-      <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
-      <button class="btn btn-primary mb-3" id='boot' type="submit" disabled={state.submitting}>
+    
+    <form className="contact" onSubmit={handleSubmit}>
+      <div className="email">
+        <label htmlFor="email">Email Address</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          className="formControll"
+          placeholder="name@example.com"
+        />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+      </div>
+      <div className="message">
+        <textarea
+          className="input"
+          id="message"
+          name="message"
+          rows={7}
+          placeholder="Your message here"
+        />
+      </div>
+      <ValidationError prefix="Message" field="message" errors={state.errors} />
+      <button
+        class="btn btn-primary mb-3"
+        id="boot"
+        type="submit"
+        disabled={state.submitting}
+      >
         Submit
       </button>
     </form>

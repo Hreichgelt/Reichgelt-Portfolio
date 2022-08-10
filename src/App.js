@@ -4,7 +4,7 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 import { Route, Routes } from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css'
 
 

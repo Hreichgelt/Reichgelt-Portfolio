@@ -3,7 +3,7 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import WorkIe from '../components/WorkIe'
-import Header from '../components/Header'
+import HeaderImg from '../components/HeaderImg'
 
 
 
@@ -12,7 +12,7 @@ const Project = () => {
   return (
     <div>
     <Nav />
-    {/* <Header /> */}
+    <HeaderImg />
     <WorkIe />
     <Footer />
     </div>
