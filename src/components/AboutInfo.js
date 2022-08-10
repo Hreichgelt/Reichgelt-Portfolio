@@ -29,7 +29,7 @@ const AboutInfo = () => {
         full-stack web development bootcamp(MERN stack). Before that, I spent the last 15+ years working in outdoor education, recreation, and land management. That is what my undergraduate education is in as well. Live for learning through experiences, especially travel and adventure tourism. I am dedicated to seeing as many places, meeting as many people, trying as many foods, and learning as much as I possibly can. 
         </p>
         <Link to="/contact">
-          <button className="btn">Contact Me</button>
+          <button className="btn">Contact</button>
         </Link>
       </div>
 
