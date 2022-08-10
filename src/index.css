@@ -7,12 +7,13 @@
 }
 
 body {
-    background: rgb(9, 1, 1);
+    background: black
 }
 
 h1, h2, h3, p, a {
     color: wheat;
     text-decoration: none;
+    padding-bottom: 1.5rem;
 }
 
 ul {
@@ -21,19 +22,21 @@ ul {
 
 .btn {
     padding: 10px 24px;
-    font-size: 1.5rem;
-    text-transform: capitalize;
+    font-size: 1rem;
     background: #335af9;
     color: white;
     border: 1px solid gray;
+    border-radius: 7%;
     font-weight: 500;
     cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(134, 131, 131);
 }
 
 .btn:hover {
     background: #74c0fc;
-    color: whte;
-    transition: 0.5s;
+    color: white;
+    transition: 0.9s;
+
 }
 
 

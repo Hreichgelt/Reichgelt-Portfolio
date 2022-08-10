@@ -3,7 +3,6 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import HeaderImg from '../components/HeaderImg'
 import AboutInfo from '../components/AboutInfo'
-// import Header from "../components/Header";
 
 
 const About = () => {

@@ -1,5 +1,5 @@
 import React from "react"
-// import './CardStyle.css'
+// import './styles/projectCard.css'
 import ProjectsCard from './ProjectsCard'
 import { Projects } from './ProjectData'
 

@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Nav } from 'react-bootstrap'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import WorkIe from '../components/WorkIe'
