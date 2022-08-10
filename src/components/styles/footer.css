@@ -1,10 +1,12 @@
 .footer {
-    display: flex;
-    /* width: 100%; */
-    padding: 1.5rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
     background-color: rgb(52, 48, 48);
     justify-content: center;
-    position: sticky;
+    display: flex;
+    bottom: 0;
+    position: absolute;
 }
 
 .footer-contain {
