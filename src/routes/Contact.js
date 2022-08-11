@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div>
       <Nav />
-      {/* <HeaderImg /> */}
+      <HeaderImg />
       <ContactForm />
       <Footer />
     </div>
@@ -16,3 +16,4 @@ function Contact() {
 }
 
 export default Contact;
+
