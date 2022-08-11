@@ -1,16 +1,15 @@
 .header-img {
     width: 100%;
     filter: brightness(70%);
-    position: absolute;
+    position: relative;
     height: 100vh;
     padding-top: 4%;
-    background-image: url();
-
 }
 
 .header-img::before{
     content:'';
-    background-size:contain;
+    background-size: cover;
+    background-position: center top;
     background: url();
     height: 100%;
     width: 100%;
@@ -36,4 +35,17 @@
 
 .header-img p{
     font-size: 1.4rem;
-    text-shadow: 2px 2px 2px black;}
+    text-shadow: 2px 2px 2px black;
+}
+
+@media screen and (max-width: 640px) {
+    .header-img h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .header-img h1 {
+        text-align: center;
+    }
+}

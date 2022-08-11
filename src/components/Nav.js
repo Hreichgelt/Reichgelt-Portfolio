@@ -33,39 +33,16 @@ const Nav = () => {
         <li>
           <Link to="/Contact">Contact Me</Link>
         </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1swbP8WdINcUU5o6vXAtNybYyoTIhPWtQ/view?usp=sharing">Resume</a>
+        </li>
       </ul>
       <div className="burgers" onClick={handleClick}>
-        {click ? (
-          <TiTimesOutline size={18} style={{ color: "green" }} />
-        ) : (
-          <RiMenu5Fill size={18} style={{ color: "green" }} />
-        )}
+        {click ? (<TiTimesOutline size={18} style={{ color: "#f5deb3" }} />) 
+        : (<RiMenu5Fill size={18} style={{ color: "#f5deb3" }} />)}
       </div>
     </div>
   );
 };
 
 export default Nav;
-
-//   <nav className="nav nav-tabs" style={{display: 'flex', justifyContent: 'flex-end', borderBottom: 'none'}}>
-//     <li className="nav-item">
-//         <a href="#About" onClick={() => handlePageChange('about')}
-//         className={currentPage === 'about' ? 'nav-link active' : 'nav-link'}
-//         >About</a>
-//     </li>
-//     <li className="nav-item">
-//         <a href="#Portfolio" onClick={() => handlePageChange('portfolio')}
-//         className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
-//         >Portfolio</a>
-//     </li>
-//     <li className="nav-item">
-//         <a href="#Contact" onClick={() => handlePageChange('contact')}
-//         className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'}
-//         >Contact</a>
-//     </li>
-//     <li className="nav-item">
-//         <a href="#Resume" onClick={() => handlePageChange('resume')}
-//         className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}
-//         >Resume</a>
-//     </li>
-//   </nav>
