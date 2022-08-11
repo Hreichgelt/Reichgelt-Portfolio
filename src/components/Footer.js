@@ -46,45 +46,14 @@ function Footer() {
             </a>
           </p>
           <p className="nav-item">
-            <a href="mailto: hreichgelt@gmail.com" alt="Email Link">
-              <img
-                className="icon"
-                src={email}
-                alt="email Link"
-                width="64"
-              ></img>
-            </a>
+          <a href="mailto: hreichgelt06@gmail.com">
+              <img className="icon" src={email} alt="email Link" width="64"></img>
+              </a>
           </p>
         </div>
       </div>
-      <div className="right"></div>
     </div>
   );
 }
 
 export default Footer;
-
-{
-  /* 
-
-
-
-          //     className="nav nav-tabs"
-  //     style={{
-  //       position: 'fixed',
-  //       left: 0,
-  //       bottom: 0,
-  //       width: '100%',
-  //       display: "flex-row",
-  //       justifyContent: "center",
-  //       borderBottom: "none",
-  //       backgroundColor: 'cadetblue',
-  //       justifySelf: "flex-end"
-
-  //     }}
-  //   >
-      
-  // */
-}
-// <footer
-//   </footer>

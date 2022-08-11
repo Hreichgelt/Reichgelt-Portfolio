@@ -16,10 +16,10 @@ const Header = () => {
             <div>
                 <Link to='/project' className='btn'>Projects</Link>
                 <Link to='/About' className='btn'>About</Link>
+                <a href='mailto: hreichgelt06@gmail.com' className='btn'>Hreichgelt06@gmail.com</a>
             </div>
         </div>
     </div>
     )
 }
-
 export default Header;
