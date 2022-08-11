@@ -19,7 +19,7 @@ const Nav = () => {
 
   window.addEventListener('scroll', changeColor)
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className="nav nav-bg">
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>

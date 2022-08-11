@@ -2,14 +2,15 @@ import React  from "react";
 import Nav from '../components/Nav'
 import ContactForm from "../components/ContactForm";
 import Footer from '../components/Footer'
-import HeaderImg from "../components/HeaderImg";
+import HeroWrapper from "../components/HeroWrapper";
 
 function Contact() {
   return (
     <div>
       <Nav />
-      <HeaderImg />
-      <ContactForm />
+      <HeroWrapper>
+         <ContactForm />
+      </HeroWrapper>
       <Footer />
     </div>
   );

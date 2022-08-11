@@ -1,13 +1,16 @@
 import React from "react";
 import Nav from '../components/Nav'
-import Header from '../components/Header'
+import HomeBody from '../components/HomeBody'
 import Footer from "../components/Footer";
+import HeroWrapper from "../components/HeroWrapper";
 
 const Home = () => {
     return (
         <div>
             <Nav />
-            <Header />
+            <HeroWrapper>
+                <HomeBody />
+            </HeroWrapper>
             <Footer />
         </div>
     )

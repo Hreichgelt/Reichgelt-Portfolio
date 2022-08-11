@@ -33,7 +33,7 @@ function ContactForm() {
       </div>
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
-        class="btn btn-primary mb-3"
+        className="btn btn-primary mb-3"
         id="boot"
         type="submit"
         disabled={state.submitting}
