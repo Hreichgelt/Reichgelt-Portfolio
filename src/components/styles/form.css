@@ -10,8 +10,6 @@ form {
     align-items: center;
     display:flex;
     flex-direction: column;
-    z-index: 99999;
-
 }
 
 .email {
@@ -20,7 +18,6 @@ form {
     width: 80%;
     display: flex;
     flex-direction: column;
-    z-index: 99999;
 
 }
 
@@ -36,7 +33,6 @@ form {
 input {
     border-color: black;
     background-color: rgb(207, 204, 204);
-    z-index: 99999;
 }
 
 textarea {
