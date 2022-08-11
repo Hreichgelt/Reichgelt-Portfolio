@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div>
       <Nav />
-      <HeaderImg />
+      {/* <HeaderImg /> */}
       <ContactForm />
       <Footer />
     </div>

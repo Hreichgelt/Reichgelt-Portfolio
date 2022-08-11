@@ -8,53 +8,38 @@
     height: 100%;
 }
 
+/* #contactBtn {
+    z-index: 99999;
+} */
+
 .about-info .right {
     text-align: center;
     margin: auto;
     padding: 1rem;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .image-container {
     width: auto;
-    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* padding-bottom: 15px; */
 }
 
 .left {
     display: flex;
     justify-content: center;
-    margin: 10%;
+    margin: 2.5%;
     width: auto;
-    padding: 15px;
-}
-
-.image-up {
-    height: auto;
-    max-width: 100%;
-    padding-right: 5%;
-    border: 2px solid orange;
-}
-
-.image-down {
-    height: auto;
-    max-width: 100%;
-    padding-right: 5%;
-    border: 2px solid orange;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* padding-bottom: 15px; */
 }
 
 .imageFish {
     object-fit:contain;
     height: 50%;
     width: 50%;
-    padding: 25% 0, 5% 0;
-}
-
-.imageRain {
-    object-fit: contain;
-    height: 50%;
-    width: 50%;
-    padding: 5% 0, 5% 0;
-    border: 3px solid gold;
-    border-radius: 30%;
+    padding: 0, 0, 5% 0;
 }
 

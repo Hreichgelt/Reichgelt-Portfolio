@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div>
       <Nav />
-      <HeaderImg />
+      {/* <HeaderImg /> */}
       <AboutInfo />
       <Footer />
     </div>
