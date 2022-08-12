@@ -11,6 +11,7 @@ function ContactForm() {
   return (
     
     <form className="contact" onSubmit={handleSubmit}>
+      <h1>Contact Me</h1>
       <div className="email">
         <label htmlFor="email">Email Address</label>
         <input
@@ -40,6 +41,7 @@ function ContactForm() {
       >
         Submit
       </button>
+      {/* <a href='mailto: hreichgelt06@gmail.com' className='btn'>Hreichgelt06@gmail.com</a> */}
     </form>
   );
 }

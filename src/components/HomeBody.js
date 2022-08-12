@@ -7,7 +7,7 @@ const Header = () => {
     return (
     <div className='homebody'>
         <div className='content'>
-            <h1>Hans Reichgelts Portfolio</h1>
+            <h1>Hans Reichgelt's Portfolio</h1>
             <div>
                 <Link to='/project' className='btn'>Projects</Link>
                 <Link to='/About' className='btn'>About</Link>

@@ -1,7 +1,6 @@
 
 .footer {
     width: 100%;
-    /* height: auto; */
     padding: 1rem;
     background-color: rgb(52, 48, 48);
     justify-content: center;
@@ -9,10 +8,6 @@
     bottom: 0;
     position: relative;
 }
-
-/* .email {
-    padding-right: 50%;
-} */
 
 .footer-contain {
     margin: auto;
@@ -24,13 +19,9 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    /* margin-top: 1rem; */
 }
 
 .icon {
     display: flex;
     flex-direction: row;
 }
-
-
-
