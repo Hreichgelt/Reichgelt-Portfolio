@@ -15,8 +15,8 @@
     background: rgb(205, 201, 201);
     padding: 1rem 1rem;
     border-radius: .75rem;
-    z-index: 99999;
-
+    z-index: 9;
+    height: auto;
 }
 
 .project-text {
