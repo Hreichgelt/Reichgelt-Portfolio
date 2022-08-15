@@ -8,6 +8,9 @@
     height: 100%;
 }
 
+p {
+    font-size: 20px;
+}
 
 .about-info .right {
     text-align: center;
