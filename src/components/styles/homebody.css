@@ -44,6 +44,12 @@
   }
 }
 
+@media screen and (width: 575px) {
+  .homebody .content h1 {
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (min-width: 1008px) {
   @keyframes appear {
     from { tranfsorm: translateX(100rem) }
