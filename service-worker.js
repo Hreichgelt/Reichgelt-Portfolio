@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Reichgelt-Portfolio/precache-manifest.29cad112646d459d599d1b46229ad22a.js"
+  "/reichgelt-portfolio/precache-manifest.58307b24606512752ed3f913253a5b32.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Reichgelt-Portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/reichgelt-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
