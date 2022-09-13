@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Reichgelt-Portfolio/precache-manifest.734b80b2ed8067ac2deed4272f538e3e.js"
+  "/Reichgelt-Portfolio/precache-manifest.29cad112646d459d599d1b46229ad22a.js"
 );
 
 workbox.clientsClaim();
