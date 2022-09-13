@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/Reichgelt-Portfolio/static/media/var.9d07cc15.png"
   },
   {
-    "revision": "193f4a541f41679c12e7f16559b1ce1d",
+    "revision": "484b770cd9cef5bc9c5357213148556f",
     "url": "/Reichgelt-Portfolio/index.html"
   }
 ];
