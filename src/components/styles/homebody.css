@@ -18,7 +18,7 @@
 
 
   .content h1 {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     text-shadow: 2.5px 2.5px 2.5px rgb(41, 40, 40);
     font-weight: 600;
     animation-name: appear;
@@ -35,18 +35,21 @@
   to { transform: translateY(0)}
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 525px) {
   .homebody .content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   .homebody .content p {
     font-size: 1.2rem;
-  }
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-@media screen and (width: 575px) {
-  .homebody .content h1 {
-    font-size: 0.8rem;
   }
 }
 
