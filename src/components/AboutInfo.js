@@ -12,7 +12,7 @@ const AboutInfo = () => {
           Fullstack Engineer leveraging recreation and land-management
           background to build a more inclusive experience for recreation seekers
           and tourists. Current skills include; HTML CSS, JavaScript, APIs,
-          JSON, Jquery, APIs, GIT, Node, Express, Testing, and MySQL. Throughout
+          JSON, Jquery, APIs, GIT, Node, Express, Testing, NoSQL, MySQL, MongoDB, IndexDb and more. Throughout
           career, have developed the reputation as a visionary with the ability
           to develop a wide range of programs. Recently learned the Adobe Suite
           and am passionate about creative projects. A team-player with the
