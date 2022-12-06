@@ -1,21 +1,21 @@
 {
-  "main.css": "/reichgelt-portfolio/static/css/main.de9f72fc.chunk.css",
-  "main.js": "/reichgelt-portfolio/static/js/main.6b45a677.chunk.js",
-  "main.js.map": "/reichgelt-portfolio/static/js/main.6b45a677.chunk.js.map",
-  "runtime~main.js": "/reichgelt-portfolio/static/js/runtime~main.000aac1b.js",
-  "runtime~main.js.map": "/reichgelt-portfolio/static/js/runtime~main.000aac1b.js.map",
-  "static/js/2.9b3f9e95.chunk.js": "/reichgelt-portfolio/static/js/2.9b3f9e95.chunk.js",
-  "static/js/2.9b3f9e95.chunk.js.map": "/reichgelt-portfolio/static/js/2.9b3f9e95.chunk.js.map",
-  "index.html": "/reichgelt-portfolio/index.html",
-  "precache-manifest.58307b24606512752ed3f913253a5b32.js": "/reichgelt-portfolio/precache-manifest.58307b24606512752ed3f913253a5b32.js",
-  "service-worker.js": "/reichgelt-portfolio/service-worker.js",
-  "static/css/main.de9f72fc.chunk.css.map": "/reichgelt-portfolio/static/css/main.de9f72fc.chunk.css.map",
-  "static/media/FlowerShopHome.png": "/reichgelt-portfolio/static/media/FlowerShopHome.d69ddd0c.png",
-  "static/media/blazer.png": "/reichgelt-portfolio/static/media/blazer.e4c75ada.png",
-  "static/media/forest.jpg": "/reichgelt-portfolio/static/media/forest.f764db39.jpg",
-  "static/media/jate.png": "/reichgelt-portfolio/static/media/jate.5886e18e.png",
-  "static/media/maps.png": "/reichgelt-portfolio/static/media/maps.933e52b7.png",
-  "static/media/ranier.jpg": "/reichgelt-portfolio/static/media/ranier.5bba1286.jpg",
-  "static/media/schedule.png": "/reichgelt-portfolio/static/media/schedule.1ed8bc68.png",
-  "static/media/var.png": "/reichgelt-portfolio/static/media/var.9d07cc15.png"
+  "files": {
+    "main.css": "/reichgelt-portfolio/static/css/main.059e7abd.css",
+    "main.js": "/reichgelt-portfolio/static/js/main.61e4f66d.js",
+    "static/media/forest.jpg": "/reichgelt-portfolio/static/media/forest.998c122c9eb34daf5196.jpg",
+    "static/media/FlowerShopHome.png": "/reichgelt-portfolio/static/media/FlowerShopHome.e1100cae109668dd83dd.png",
+    "static/media/maps.png": "/reichgelt-portfolio/static/media/maps.c037f6cf0db6813ac3a8.png",
+    "static/media/ranier.jpg": "/reichgelt-portfolio/static/media/ranier.c52e7e84420f22149ec7.jpg",
+    "static/media/blazer.png": "/reichgelt-portfolio/static/media/blazer.239f912c1acbbe2a41c8.png",
+    "static/media/var.png": "/reichgelt-portfolio/static/media/var.8184292823f975df81bb.png",
+    "static/media/schedule.png": "/reichgelt-portfolio/static/media/schedule.64ef26452863c649c6f7.png",
+    "static/media/jate.png": "/reichgelt-portfolio/static/media/jate.472c9975e396be097294.png",
+    "index.html": "/reichgelt-portfolio/index.html",
+    "main.059e7abd.css.map": "/reichgelt-portfolio/static/css/main.059e7abd.css.map",
+    "main.61e4f66d.js.map": "/reichgelt-portfolio/static/js/main.61e4f66d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.059e7abd.css",
+    "static/js/main.61e4f66d.js"
+  ]
 }
