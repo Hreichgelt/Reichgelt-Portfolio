@@ -34,7 +34,7 @@ const Nav = () => {
           <Link to="/Contact">Contact Me</Link>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1uhdc2ttA7k1YsNZV1MrDuJAU0cEkfuyJ/view?usp=https://docs.google.com/document/d/1CslrhsRFOw027dqn-rbcTOQUqrJbf4RMi2ODyBJ8c7s/edit?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/1Nvpqpn0_WfO87h0jonolL8lifUIiU3dE/view?usp=sharing">Resume</a>
         </li>
       </ul>
       <div className="burgers" onClick={handleClick}>
