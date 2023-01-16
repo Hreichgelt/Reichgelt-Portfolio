@@ -11,7 +11,7 @@ export const Projects = [
         title: "Bouquet Now",
         text: "Bouquet Now is an ecommerce website for a flower shop. This shop will sell bouquets and arrangements by occasion: Birthday, Anniversary, Congratulations, Get Well Soon, Love & Romance and Thank You. Project utilizes: React, Concurrently, Stripe Payment, Apollo, Express, GraphQL, JWT, Formspree, MongoDB, Bcrypt, Compass, and Node",
         image: work1,
-        website: "https://bouquetnow.herokuapp.com/",
+        demo: "https://drive.google.com/file/d/1ZKyz9qs-VBQnIzF-n7LyaO56sd5MXVOg/view?usp=sharing",
         repository: "https://github.com/ntraugh/flower-shop"
     },
     {
