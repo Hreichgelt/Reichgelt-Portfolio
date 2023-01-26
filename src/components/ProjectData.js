@@ -12,7 +12,7 @@ export const Projects = [
         text: "Bouquet Now is an ecommerce website for a flower shop. This shop will sell bouquets and arrangements by occasion: Birthday, Anniversary, Congratulations, Get Well Soon, Love & Romance and Thank You. Project utilizes: React, Concurrently, Stripe Payment, Apollo, Express, GraphQL, JWT, Formspree, MongoDB, Bcrypt, Compass, and Node",
         image: work1,
         website: "https://bouquetnow.onrender.com/",
-        repository: "https://github.com/ntraugh/flower-shop"
+        repository: "https://github.com/Hreichgelt/bouquet-now"
     },
     {
         title: "Maps || Fingerprint of the Past",
