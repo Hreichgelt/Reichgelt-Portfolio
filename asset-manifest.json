@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.ece4e96c.css",
-    "main.js": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.d367c6f5.js",
-    "static/media/forest.jpg": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/forest.998c122c9eb34daf5196.jpg",
-    "static/media/FlowerShopHome.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/FlowerShopHome.e1100cae109668dd83dd.png",
-    "static/media/maps.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/maps.c037f6cf0db6813ac3a8.png",
-    "static/media/ranier.jpg": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/ranier.c52e7e84420f22149ec7.jpg",
-    "static/media/blazer.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/blazer.239f912c1acbbe2a41c8.png",
-    "static/media/var.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/var.8184292823f975df81bb.png",
-    "static/media/schedule.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/schedule.64ef26452863c649c6f7.png",
-    "static/media/jate.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/jate.472c9975e396be097294.png",
+    "main.css": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.e0f66ce2.js",
+    "static/media/logo.svg": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "https://hreichgelt.github.io/reichgelt-portfolio/index.html",
-    "main.ece4e96c.css.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.ece4e96c.css.map",
-    "main.d367c6f5.js.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.d367c6f5.js.map"
+    "main.073c9b0a.css.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.073c9b0a.css.map",
+    "main.e0f66ce2.js.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.e0f66ce2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ece4e96c.css",
-    "static/js/main.d367c6f5.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e0f66ce2.js"
   ]
 }
