@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.ece4e96c.css",
-    "main.js": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.de846ed7.js",
+    "main.css": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.059e7abd.css",
+    "main.js": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.bab63b53.js",
     "static/media/forest.jpg": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/forest.998c122c9eb34daf5196.jpg",
     "static/media/FlowerShopHome.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/FlowerShopHome.e1100cae109668dd83dd.png",
     "static/media/maps.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/maps.c037f6cf0db6813ac3a8.png",
@@ -11,11 +11,11 @@
     "static/media/schedule.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/schedule.64ef26452863c649c6f7.png",
     "static/media/jate.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/jate.472c9975e396be097294.png",
     "index.html": "https://hreichgelt.github.io/reichgelt-portfolio/index.html",
-    "main.ece4e96c.css.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.ece4e96c.css.map",
-    "main.de846ed7.js.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.de846ed7.js.map"
+    "main.059e7abd.css.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.059e7abd.css.map",
+    "main.bab63b53.js.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.bab63b53.js.map"
   },
   "entrypoints": [
-    "static/css/main.ece4e96c.css",
-    "static/js/main.de846ed7.js"
+    "static/css/main.059e7abd.css",
+    "static/js/main.bab63b53.js"
   ]
 }
