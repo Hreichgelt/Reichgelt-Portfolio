@@ -1,13 +1,12 @@
 import React from 'react';
 import './styles/homebody.css'
 import { Link } from 'react-router-dom'
-import Banner from './Banner';
 
 
 const Header = () => {
     return (
     <div className='homebody'>
-        <Banner />
+        
         <div className='content'>
             <h1>Hans Reichgelt's Portfolio</h1>
             <div>
