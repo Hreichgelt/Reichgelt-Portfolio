@@ -77,11 +77,11 @@ const AboutInfo = () => {
           and collective success.
         </p>
         <p>
-          Looking ahead, my long-term aspiration is to evolve into a developer
-          role and continue my journey of growth within the tech industry. While
-          the path to achieving this goal may evolve, my determination remains
-          steadfast, fueled by a passion for learning and a commitment to
-          excellence.
+          Looking ahead, my long-term aspiration is to evolve into a senior
+          engineer and continue my journey of growth within the tech industry.
+          While the path to achieving this goal may evolve, my determination
+          remains steadfast, fueled by a passion for learning and a commitment
+          to excellence.
         </p>
         <Link to="/contact">
           <button className="btn" id="contactBtn">
