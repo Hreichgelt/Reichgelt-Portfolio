@@ -91,11 +91,11 @@ const AboutInfo = () => {
       </div>
 
       <div className="left">
-        <div className="image-container">
+        {/* <div className="image-container">
           <div className="ranier">
             <img src={ranier} className="imgFish" alt="Mount Ranier"></img>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="plot">
         <div className="video-container">
@@ -113,13 +113,30 @@ const AboutInfo = () => {
           </div>
         </div>
       </div>
-      <div className="art">
+      <div className="OTC">
         <div className="video-container">
           <div className="timelapse">
             <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/MY6SmIv9vwc?si=8pbbD76h_BYZiop4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div className="mural">
+        <div className="video-container">
+          <div className="timelapse">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/W42r_CvWen4?si=Y8j9GomBXq-eWZ3W"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
