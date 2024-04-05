@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ranier from "./assets/ranier.jpg";
-import './styles/about.css'
+import "./styles/about.css";
 
 const AboutInfo = () => {
   return (
@@ -9,27 +9,82 @@ const AboutInfo = () => {
       <div className="right">
         <h1>Brand</h1>
         <p>
-          Fullstack Engineer leveraging recreation and land-management
-          background to build a more inclusive experience for recreation seekers
-          and tourists. Current skills include; HTML CSS, JavaScript, APIs,
-          JSON, Jquery, APIs, GIT, Node, Express, Testing, NoSQL, MySQL, MongoDB, IndexDb and more. Throughout
-          career, have developed the reputation as a visionary with the ability
-          to develop a wide range of programs. Recently learned the Adobe Suite
-          and am passionate about creative projects. A team-player with the
-          capacity to quickly learn and become a crucial member of any team.
-          During development journey have worked independently and in groups to
-          create mapping projects, password generators and more. Resilient
-          individual with a growth mindset, able to adapt leadership style to
-          achieve quality results. Excited to leverage new skills in the tech
-          field as a part of a creative team.
+          As a Fullstack Engineer, I merge my background in recreation and land
+          management with my passion for web development to create immersive
+          experiences for recreation enthusiasts and tourists alike.</p> 
+           <p>Proficient
+          in HTML, CSS, JavaScript, APIs, JSON, jQuery, GIT, Node.js, Express,
+          Testing, NoSQL, MySQL, MongoDB, IndexedDB, and more, I bring a
+          versatile skill set to every project. </p> 
+          <p>Throughout my career, I've
+          earned a reputation for visionary thinking and the ability to craft
+          diverse programs. Recently adding Adobe Suite to my toolkit, I'm
+          enthusiastic about exploring creative endeavors. Whether working
+          independently or collaboratively, I've contributed to various
+          projects, from mapping initiatives to password generators.
         </p>
+        
         <h2>About Me</h2>
         <p>
-        Hello, my name is Hans Reichgelt. Recently graduated from UNC Charlotte's 
-        full-stack web development bootcamp(MERN stack). Before that, I spent the last 15+ years working in outdoor education, recreation, and land management. That is what my undergraduate education is in as well. Live for learning through experiences, especially travel and adventure tourism. I am dedicated to seeing as many places, meeting as many people, trying as many foods, and learning as much as I possibly can. 
+          My name is Hans Reichgelt, and I'm driven by a relentless pursuit of
+          growth and learning. Transitioning from a rich background in outdoor
+          education, recreation, and land management, I found myself drawn to
+          the vast potential for learning and innovation in the tech industry,
+          particularly in web development.
+        </p>
+        <p>
+          Drawing parallels between project management in outdoor endeavors and
+          the tech world, I've honed my problem-solving skills and collaborative
+          approach. Coordinating teams, volunteers, and contractors to enhance
+          landscapes and build trails has instilled in me a keen ability to
+          navigate complex challenges and delegate tasks effectively.
+        </p>
+        <p>
+          Infusing my work with a passion for adventure and cultural immersion,
+          I approach every project as an opportunity for exploration. My diverse
+          experiences and travels enable me to think outside the box and offer
+          creative solutions to unique problems.
+        </p>
+        <p>
+          Demonstrating a strong willingness to learn and adapt, I embarked on
+          acquiring videography skills through Adobe Premiere Pro to reduce
+          costs for my previous employer. Despite the turbulence of
+          transitioning into the IT field amidst layoffs and logistical
+          challenges, I embraced a helpdesk role to grasp the intricacies of
+          tech systems, ultimately earning a promotion to a level 2 analyst
+          within a year.
+        </p>
+        <p>
+          My previous roles have equipped me with invaluable skills in coaching,
+          leadership, and mentorship, which I am eager to leverage in the tech
+          industry. I envision myself as a collaborative team member, offering
+          fresh perspectives and unconventional solutions to drive innovation
+          forward.
+        </p>
+        <p>
+          Staying abreast of technological advancements and industry trends, I
+          immerse myself in email list serves, group discussions, and personal
+          projects. I particularly appreciate leveraging AI to simplify complex
+          concepts for beginners, reflecting my commitment to accessible
+          learning.
+        </p>
+        <p>
+          My approach to teamwork emphasizes open communication and a flexible
+          leadership style tailored to the needs of each project. Whether
+          leading a team or contributing expertise, I prioritize collaboration
+          and collective success.
+        </p>
+        <p>
+          Looking ahead, my long-term aspiration is to evolve into a developer
+          role and continue my journey of growth within the tech industry. While
+          the path to achieving this goal may evolve, my determination remains
+          steadfast, fueled by a passion for learning and a commitment to
+          excellence.
         </p>
         <Link to="/contact">
-          <button className="btn" id="contactBtn">Contact</button>
+          <button className="btn" id="contactBtn">
+            Contact
+          </button>
         </Link>
       </div>
 
@@ -40,8 +95,21 @@ const AboutInfo = () => {
           </div>
         </div>
       </div>
+      <div className="plot">
+        <div className="video-container">
+          <div className="timelapse">
+            <iframe
+            width={700}
+            height={350}
+            src="https://www.youtube.com/watch?v=j134HMwNpXA"
+            // frameBorder={0}
+            allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutInfo
+export default AboutInfo;
