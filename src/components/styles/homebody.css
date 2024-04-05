@@ -37,18 +37,21 @@
 
 @media screen and (max-width: 455px) {
   .homebody .content h1 {
-    font-size: 2rem;
-    padding-left: 2rem;
-    padding-right: 0;
-  }
-  .homebody .content p {
-    font-size: 1.2rem;
+      font-size: 2rem;
+      padding-left: 2rem;
+      padding-right: 0;
   }
 }
 
-@media screen and (min-width: 1008px) {
-  @keyframes appear {
-    from { tranfsorm: translateX(100rem) }
-    to { transform: translateY(0)}
+@media screen and (max-width: 1008px) {
+  .content .btn {
+      margin-right: 1rem; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homebody .content h1 {
+      font-size: 2.5rem; 
+      padding: 0.5rem 1rem 0.6rem;
   }
 }
