@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.059e7abd.css",
-    "main.js": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.bab63b53.js",
+    "main.css": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.6616eaf5.css",
+    "main.js": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.5aebf5da.js",
     "static/media/forest.jpg": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/forest.998c122c9eb34daf5196.jpg",
     "static/media/FlowerShopHome.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/FlowerShopHome.e1100cae109668dd83dd.png",
     "static/media/maps.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/maps.c037f6cf0db6813ac3a8.png",
-    "static/media/ranier.jpg": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/ranier.c52e7e84420f22149ec7.jpg",
     "static/media/blazer.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/blazer.239f912c1acbbe2a41c8.png",
     "static/media/var.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/var.8184292823f975df81bb.png",
     "static/media/schedule.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/schedule.64ef26452863c649c6f7.png",
     "static/media/jate.png": "https://hreichgelt.github.io/reichgelt-portfolio/static/media/jate.472c9975e396be097294.png",
     "index.html": "https://hreichgelt.github.io/reichgelt-portfolio/index.html",
-    "main.059e7abd.css.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.059e7abd.css.map",
-    "main.bab63b53.js.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.bab63b53.js.map"
+    "main.6616eaf5.css.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/css/main.6616eaf5.css.map",
+    "main.5aebf5da.js.map": "https://hreichgelt.github.io/reichgelt-portfolio/static/js/main.5aebf5da.js.map"
   },
   "entrypoints": [
-    "static/css/main.059e7abd.css",
-    "static/js/main.bab63b53.js"
+    "static/css/main.6616eaf5.css",
+    "static/js/main.5aebf5da.js"
   ]
 }
