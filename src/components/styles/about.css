@@ -26,15 +26,15 @@ p {
     /* padding-bottom: 15px; */
 }
 
-.media {
+/* .left {
     display: flex;
     justify-content: center;
     margin: 2.5%;
     width: auto;
     padding-right: 15px;
     padding-left: 15px;
-    /* padding-bottom: 15px; */
-}
+    padding-bottom: 15px; */
+/* } */
 
 .imageFish {
     object-fit:contain;
@@ -42,6 +42,33 @@ p {
     width: 50%;
     padding: 0, 0, 5% 0;
 }
+
+.video-wrapper {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    padding: 2%;
+  }
+  
+  .video-container {
+    width: 560px; /* Adjust width of each video container */
+    padding: 2%;
+  }
+  
+  .timelapse {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    overflow: hidden;
+  }
+  
+  .timelapse iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
 
 @media screen and (min-width: 1080px) {
     .about-info {

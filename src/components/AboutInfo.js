@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ranier from "./assets/ranier.jpg";
+// import ranier from "./assets/ranier.jpg";
 import "./styles/about.css";
 
 const AboutInfo = () => {
   return (
-    <div className="about-info">
+<div className="about-info">
       <div className="right">
         <h1>Brand</h1>
         <p>
@@ -90,13 +90,14 @@ const AboutInfo = () => {
         </Link>
       </div>
 
-      <div className="left">
+      {/* <div className="left"> */}
         {/* <div className="image-container">
           <div className="ranier">
             <img src={ranier} className="imgFish" alt="Mount Ranier"></img>
           </div>
         </div> */}
-      </div>
+      {/* </div> */}
+    <div className="video-wrapper">
       <div className="plot">
         <div className="video-container">
           <div className="timelapse">
@@ -146,7 +147,8 @@ const AboutInfo = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+</div>
   );
 };
 
