@@ -11,19 +11,21 @@ const AboutInfo = () => {
         <p>
           As a Fullstack Engineer, I merge my background in recreation and land
           management with my passion for web development to create immersive
-          experiences for recreation enthusiasts and tourists alike.</p> 
-           <p>Proficient
-          in HTML, CSS, JavaScript, APIs, JSON, jQuery, GIT, Node.js, Express,
-          Testing, NoSQL, MySQL, MongoDB, IndexedDB, and more, I bring a
-          versatile skill set to every project. </p> 
-          <p>Throughout my career, I've
-          earned a reputation for visionary thinking and the ability to craft
-          diverse programs. Recently adding Adobe Suite to my toolkit, I'm
-          enthusiastic about exploring creative endeavors. Whether working
-          independently or collaboratively, I've contributed to various
-          projects, from mapping initiatives to password generators.
+          experiences for recreation enthusiasts and tourists alike.
         </p>
-        
+        <p>
+          Proficient in HTML, CSS, JavaScript, APIs, JSON, jQuery, GIT, Node.js,
+          Express, Testing, NoSQL, MySQL, MongoDB, IndexedDB, and more, I bring
+          a versatile skill set to every project.{" "}
+        </p>
+        <p>
+          Throughout my career, I've earned a reputation for visionary thinking
+          and the ability to craft diverse programs. Recently adding Adobe Suite
+          to my toolkit, I'm enthusiastic about exploring creative endeavors.
+          Whether working independently or collaboratively, I've contributed to
+          various projects, from mapping initiatives to password generators.
+        </p>
+
         <h2>About Me</h2>
         <p>
           My name is Hans Reichgelt, and I'm driven by a relentless pursuit of
@@ -99,11 +101,30 @@ const AboutInfo = () => {
         <div className="video-container">
           <div className="timelapse">
             <iframe
-            width={700}
-            height={350}
-            src="https://www.youtube.com/watch?v=j134HMwNpXA"
-            // frameBorder={0}
-            allowFullScreen
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/j134HMwNpXA?si=11DFdiqLsyXcafCN"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div className="art">
+        <div className="video-container">
+          <div className="timelapse">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/MY6SmIv9vwc?si=8pbbD76h_BYZiop4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
             ></iframe>
           </div>
         </div>
