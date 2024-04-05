@@ -12,13 +12,9 @@ const AboutInfo = () => {
           As a Fullstack Engineer, I merge my background in recreation and land
           management with my passion for web development to create immersive
           experiences for recreation enthusiasts and tourists alike.
-        </p>
-        <p>
           Proficient in HTML, CSS, JavaScript, APIs, JSON, jQuery, GIT, Node.js,
           Express, Testing, NoSQL, MySQL, MongoDB, IndexedDB, and more, I bring
           a versatile skill set to every project.{" "}
-        </p>
-        <p>
           Throughout my career, I've earned a reputation for visionary thinking
           and the ability to craft diverse programs. Recently adding Adobe Suite
           to my toolkit, I'm enthusiastic about exploring creative endeavors.
@@ -40,14 +36,10 @@ const AboutInfo = () => {
           approach. Coordinating teams, volunteers, and contractors to enhance
           landscapes and build trails has instilled in me a keen ability to
           navigate complex challenges and delegate tasks effectively.
-        </p>
-        <p>
           Infusing my work with a passion for adventure and cultural immersion,
           I approach every project as an opportunity for exploration. My diverse
           experiences and travels enable me to think outside the box and offer
           creative solutions to unique problems.
-        </p>
-        <p>
           Demonstrating a strong willingness to learn and adapt, I embarked on
           acquiring videography skills through Adobe Premiere Pro to reduce
           costs for my previous employer. Despite the turbulence of
@@ -62,21 +54,15 @@ const AboutInfo = () => {
           industry. I envision myself as a collaborative team member, offering
           fresh perspectives and unconventional solutions to drive innovation
           forward.
-        </p>
-        <p>
           Staying abreast of technological advancements and industry trends, I
           immerse myself in email list serves, group discussions, and personal
           projects. I particularly appreciate leveraging AI to simplify complex
           concepts for beginners, reflecting my commitment to accessible
           learning.
-        </p>
-        <p>
           My approach to teamwork emphasizes open communication and a flexible
           leadership style tailored to the needs of each project. Whether
           leading a team or contributing expertise, I prioritize collaboration
           and collective success.
-        </p>
-        <p>
           Looking ahead, my long-term aspiration is to evolve into a senior
           engineer and continue my journey of growth within the tech industry.
           While the path to achieving this goal may evolve, my determination
@@ -88,6 +74,12 @@ const AboutInfo = () => {
             Contact
           </button>
         </Link>
+        <br></br>
+        <br></br>
+        <br></br>
+        <p className="featured">
+        Featured below are glimpses of my past endeavors, encapsulating both professional achievements and a current passion project aimed at revitalizing natural landscapes for enhanced recreational experiences. Embarking on a journey to cultivate an idyllic hunting environment, I envision sustaining lush food plots adorned with apple and oak trees, alongside nurturing watering holes. This ongoing project reflects my commitment to environmental stewardship and the pursuit of holistic outdoor experiences. 
+        </p>
       </div>
 
       {/* <div className="left"> */}
