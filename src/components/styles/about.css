@@ -44,9 +44,9 @@ p {
 }
 
 .video-wrapper {
-    display: flex;
-    justify-content: space-between; /* Adjust as needed */
-    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 20px; /* Adjust spacing between videos */
   }
   
   .video-container {
@@ -75,3 +75,15 @@ p {
         margin: 2rem --8rem;
     }
 }
+
+@media only screen and (max-width: 1100px) {
+    .video-wrapper {
+      grid-template-columns: 1fr; /* 1 column for smaller screens */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .video-container {
+      width: calc(100% - 20px); /* Adjust width to fit smaller screens with some padding */
+    }
+  }
