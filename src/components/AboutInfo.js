@@ -94,8 +94,8 @@ const AboutInfo = () => {
           <div className="video-container">
             <div className="timelapse">
               <iframe
-                width="560"
-                height="315"
+                width="100%"
+                height="auto"
                 src="https://www.youtube.com/embed/j134HMwNpXA?si=11DFdiqLsyXcafCN"
                 title="YouTube video player"
                 frameborder="0"
