@@ -9,17 +9,17 @@ const AboutInfo = () => {
       <div className="right">
         <h1>Brand</h1>
         <p>
-          As a Fullstack Engineer, I merge my background in recreation and land
+          As a Software Engineer, I merge my background in recreation and land
           management with my passion for web development to create immersive
-          experiences for recreation enthusiasts and tourists alike.
-          Proficient in HTML, CSS, JavaScript, APIs, JSON, jQuery, GIT, Node.js,
-          Express, Testing, NoSQL, MySQL, MongoDB, IndexedDB, and more, I bring
-          a versatile skill set to every project.{" "}
-          Throughout my career, I've earned a reputation for visionary thinking
-          and the ability to craft diverse programs. Recently adding Adobe Suite
-          to my toolkit, I'm enthusiastic about exploring creative endeavors.
-          Whether working independently or collaboratively, I've contributed to
-          various projects, from mapping initiatives to password generators.
+          experiences for recreation enthusiasts and tourists alike. Proficient
+          in HTML, CSS, JavaScript, APIs, JSON, jQuery, GIT, Node.js, Express,
+          Testing, NoSQL, MySQL, MongoDB, IndexedDB, and more, I bring a
+          versatile skill set to every project. Throughout my career, I've
+          earned a reputation for visionary thinking and the ability to craft
+          diverse programs. I'm enthusiastic about exploring creative endeavors,
+          sustainability, and making the world a better place. Whether working
+          independently or collaboratively, I've contributed to various
+          projects, from mapping initiatives to password generators.
         </p>
 
         <h2>About Me</h2>
@@ -35,39 +35,35 @@ const AboutInfo = () => {
           the tech world, I've honed my problem-solving skills and collaborative
           approach. Coordinating teams, volunteers, and contractors to enhance
           landscapes and build trails has instilled in me a keen ability to
-          navigate complex challenges and delegate tasks effectively.
-          Infusing my work with a passion for adventure and cultural immersion,
-          I approach every project as an opportunity for exploration. My diverse
+          navigate complex challenges and delegate tasks effectively. Infusing
+          my work with a passion for adventure and cultural immersion, I
+          approach every project as an opportunity for exploration. My diverse
           experiences and travels enable me to think outside the box and offer
-          creative solutions to unique problems.
-          Demonstrating a strong willingness to learn and adapt, I embarked on
-          acquiring videography skills through Adobe Premiere Pro to reduce
-          costs for my previous employer. Despite the turbulence of
-          transitioning into the IT field amidst layoffs and logistical
-          challenges, I embraced a helpdesk role to grasp the intricacies of
-          tech systems, ultimately earning a promotion to a level 2 analyst
-          within a year.
+          creative solutions to unique problems. Demonstrating a strong
+          willingness to learn and adapt, I embarked on acquiring videography
+          skills through Adobe Premiere Pro to reduce costs for my previous
+          employer. Despite the turbulence of transitioning into the IT field
+          amidst layoffs and logistical challenges, I embraced a helpdesk role
+          to grasp the intricacies of tech systems, ultimately earning a
+          promotion to a level 2 analyst within a year.
         </p>
         <p>
           My previous roles have equipped me with invaluable skills in coaching,
           leadership, and mentorship, which I am eager to leverage in the tech
           industry. I envision myself as a collaborative team member, offering
           fresh perspectives and unconventional solutions to drive innovation
-          forward.
-          Staying abreast of technological advancements and industry trends, I
-          immerse myself in email list serves, group discussions, and personal
-          projects. I particularly appreciate leveraging AI to simplify complex
-          concepts for beginners, reflecting my commitment to accessible
-          learning.
-          My approach to teamwork emphasizes open communication and a flexible
-          leadership style tailored to the needs of each project. Whether
-          leading a team or contributing expertise, I prioritize collaboration
-          and collective success.
-          Looking ahead, my long-term aspiration is to evolve into a senior
-          engineer and continue my journey of growth within the tech industry.
-          While the path to achieving this goal may evolve, my determination
-          remains steadfast, fueled by a passion for learning and a commitment
-          to excellence.
+          forward. Staying abreast of technological advancements and industry
+          trends, I immerse myself in email list serves, group discussions, and
+          personal projects. I particularly appreciate leveraging AI to simplify
+          complex concepts for beginners, reflecting my commitment to accessible
+          learning. My approach to teamwork emphasizes open communication and a
+          flexible leadership style tailored to the needs of each project.
+          Whether leading a team or contributing expertise, I prioritize
+          collaboration and collective success. Looking ahead, my long-term
+          aspiration is to evolve into a senior engineer and continue my journey
+          of growth within the tech industry. While the path to achieving this
+          goal may evolve, my determination remains steadfast, fueled by a
+          passion for learning and a commitment to excellence.
         </p>
         <Link to="/contact">
           <button className="btn" id="contactBtn">
@@ -78,17 +74,17 @@ const AboutInfo = () => {
         <br></br>
         <br></br>
         <p className="featured">
-        Featured below are glimpses of my past endeavors, encapsulating both professional achievements and a current passion project aimed at revitalizing natural landscapes for enhanced recreational experiences. Embarking on a journey to cultivate an idyllic hunting environment, I envision sustaining lush food plots adorned with apple and oak trees, alongside nurturing watering holes. This ongoing project reflects my commitment to environmental stewardship and the pursuit of holistic outdoor experiences. 
+          Featured below are glimpses of my past endeavors, encapsulating both
+          professional achievements and a current passion project aimed at
+          revitalizing natural landscapes for enhanced recreational experiences.
+          Embarking on a journey to cultivate an idyllic hunting environment, I
+          envision sustaining lush food plots adorned with apple and oak trees,
+          alongside nurturing watering holes. This ongoing project reflects my
+          commitment to environmental stewardship and the pursuit of holistic
+          outdoor experiences.
         </p>
       </div>
 
-      {/* <div className="left"> */}
-      {/* <div className="image-container">
-          <div className="ranier">
-            <img src={ranier} className="imgFish" alt="Mount Ranier"></img>
-          </div>
-        </div> */}
-      {/* </div> */}
       <div className="video-wrapper">
         <div className="plot">
           <div className="video-container">
