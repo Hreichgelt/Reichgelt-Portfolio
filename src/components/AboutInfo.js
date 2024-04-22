@@ -74,7 +74,7 @@ const AboutInfo = () => {
         <br></br>
         <br></br>
         <p className="featured">
-        Below, you'll find highlights from my experiences as a recreation and land manager. The mural installations showcase my project management abilities, collaborating with local artists to enhance Westminster, Colorado's trail system. Additionally, the rough cut timelapse project represents a personal endeavor. It involves creating an ideal hunting environment, where lush food plots adorned with apple and oak trees complement nurturing watering holes. This ongoing initiative reflects my dedication to environmental stewardship and the pursuit of comprehensive outdoor experiences.
+        Below, you'll find highlights from my experiences as a recreation and land manager. The mural installations and On the Trail video showcase my project management abilities, flexibility and willingness to take on any project there is. Additionally, the rough cut timelapse project represents a personal endeavor. It involves creating an ideal hunting environment, where lush food plots adorned with apple and oak trees complement nurturing watering holes. This ongoing initiative reflects my dedication to environmental stewardship and the pursuit of comprehensive outdoor experiences.
         </p>
       </div>
 
